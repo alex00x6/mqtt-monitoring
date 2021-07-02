@@ -49,7 +49,7 @@ Set permissions, reload systemctl, enable service, reboot (for good measure)
 ```
 sudo chmod 644 /etc/systemd/system/mqtt-monitoring.service
 sudo systemctl daemon-reload
-sudo systemctl enable send_cpu_temp.service
+sudo systemctl enable mqtt-monitoring.service
 sudo reboot
 ```
 
